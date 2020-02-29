@@ -1,6 +1,7 @@
 body {
  margin: 0 auto;
  /* background-color:(12, 26, 37); */
+ background-color: rgb(29, 31, 31);
 }
 
 ul {
@@ -20,11 +21,6 @@ a {
  font-size: 35px;
  color:white;
 }
-
-/* Navigation bar */
-/* .navheader {
- background-color: rgb(141, 112, 112);
-} */
 
 /* Logo Image */
 .logo {
@@ -51,7 +47,164 @@ a {
  
 }
 
+/* Centered elements */
+
 .description {
  padding-top: 210px;
  color:blue;
+}
+
+/* Serverics */
+
+.container {
+ padding-top: 20px;
+ justify-content: center;
+ text-align: center;
+ background-color: rgb(29, 31, 31);
+ color: rgb(184, 218, 219);
+}
+
+h2 {
+ font-size: 40px;
+}
+
+.row {
+ padding-top: 20px;
+ text-align: center;
+ justify-content: center;
+}
+
+/* form Submition */
+.form-group{
+ padding-top: 20px;
+ justify-content: center;
+ text-align: center;
+}
+
+/* Inputs */
+.form-control {
+ width: 30%;
+ height:50px ;
+ 
+}
+
+
+/* Content 1 */
+.foode, img {
+ /* background-image: url(img/content-1.jpg); */
+ /* background-position: center; */
+ /* background-size: cover; */
+ width: 570px;
+ height: 212px;
+ border: 2px solid black;
+ border-radius: 10px;
+}
+
+/* Subscrition */
+
+.subscribe {
+ width: auto;
+ margin: 50px 0px auto 0px;
+ height: 160px;
+ text-align: center;
+}
+
+.subs {
+ float: none;
+ width: 100%;
+ display: inline-block;
+ max-width: 630px;
+}
+
+.subsheading {
+ padding-left: 85px;
+ position: relative;
+ white-space: nowrap;
+ color:white
+}
+
+.subicon {
+ position: absolute;
+ left: 0px;
+ font-size: 70px;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+
+.fas {
+ -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.demo {
+ font-size: 28px;
+ font-weight: normal;
+ text-align: left;
+ text-transform: uppercase;
+}
+
+.demo2 {
+ text-align: left;
+ font-size: 20px;
+ padding: 0;
+ margin: 0;
+ outline: none;
+ display: block;
+ text-transform: uppercase;
+}
+
+.subemail {
+ position: relative;
+ width: 100%;
+ float: right;
+ padding: 0;
+ margin: 0;
+ outline: none;
+ 
+}
+
+/* Email input */
+.emailinput {
+ font-size: 20px;
+ width: 100%;
+ height: 60px;
+ border-radius: 32px;
+ border :2px solid #CCCCCC;
+ padding-left: 170px;
+ padding-right:100px;
+ margin:0;
+ float: left;
+ background-color: white;
+ margin-top:10px;
+ 
+}
+
+.subbtn {
+ font-weight: bold;
+ background: #ed0000;
+ padding: 0px 30px;
+ float: right;
+ border:none;
+ margin:0px;
+ color: #fff;
+ position: absolute;
+ font-size: 20px;
+ height: 58px;
+ cursor: pointer;
+ border-radius: 32px;
+ right: 2px;
+ top:11px;
+ border-top-left-radius: 0px;
+ border-bottom-left-radius: 0px;
+}
+
+/* Second Footer */
+
+.sec_footer {
+ margin-top: 60px;
 }
